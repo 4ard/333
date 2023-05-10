@@ -52,7 +52,7 @@ $user = 'u52971';
 $pass = '6342896';
 $db = new PDO('mysql:host=localhost;dbname=u52971', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 try {
-  $stmt = $db->prepare("INSERT INTO form SET name=:name, email=:email, year=:byear, pol=:pol, limbs=:limbs, bio=:bio");
+  $stmt = $db->prepare("INSERT INTO b SET name=:name, email=:email, year=:byear, pol=:pol, limbs=:limbs, bio=:bio");
   $stmt->bindParam(':name', $name);
   $stmt->bindParam(':email', $email);
   $stmt->bindParam(':byear', $birth_year);

@@ -1,5 +1,5 @@
 body{
-  background-color: #fcee0a;
+  background-color:ffffff;
   display: flex;
   justify-content:center;
   margin-top:5%;
@@ -8,8 +8,9 @@ body{
 .main{
   padding: 40px;
   width: 250px;
-  background-color: #00ffd2;
+  background-color: #c27706
   border: 2px solid #fd0130;
+  border-radius: 20px;
 }
 
 h1{
